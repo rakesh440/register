@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+    
+    <hibernate-configuration>
+    	<session-factory>
+    	    <property name="com.vis.model.UserRegistration"/>
+    		<property name="com.vis.model.Address"/>
+    		<!-- <property name="com.vis.model.BankEmployee"/>
+    		<property name="com.vis.model.Customer"/>
+    		<property name="com.vis.model.SavingsAccount"/> -->
+    	</session-factory>
+    </hibernate-configuration>
+    
+    
+    
+    
+    <!-- <bean id="hibernate3AnnotatedSessionFactory" class="org.springframework.orm.hibernate3.annotation.AnnotationSessionFactoryBean"> 
+		<property name="dataSource" ref="dataSource" /> <property name="annotatedClasses"> 
+		<list> <value>com.vis.model.Customer</value> <value>pojo.BankEmployee</value> 
+		</list> </property> <property name="hibernateProperties"> <props> <prop key="hibernate.dialect">org.hibernate.dialect.OracleDialect</prop> 
+		<prop key="hibernate.current_session_context_class">thread</prop> <prop key="hibernate.show_sql">true</prop> 
+		</props> </property> </bean> -->
